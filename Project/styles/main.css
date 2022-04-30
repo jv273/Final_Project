@@ -1,0 +1,115 @@
+/* DEVELOPER: Jonathan Valerio, IS117-104, Spring 2022 */
+
+*{
+	margin: auto;
+}
+
+header {
+	text-align: center;
+	
+}
+
+h2 {
+	font-size: 300%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 99%;                     
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: gold;
+}
+
+main {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+} 
+
+ul {
+  display: table;
+  margin: 0 auto;
+  list-style-position: inside;
+}
+
+
+#mobile_menu {
+	display: none;
+}
+
+@media only screen and (max-width: 959px) {
+	section h1 { font-size: 135%; }
+	section h2, aside h2 { font-size: 120%; }
+}
+
+@media only screen and (max-width: 767px) {
+	header img { float: none; }
+	header { text-align: center; }
+	section {
+		float: none;
+		width: 95%;                     
+	}
+	aside {
+		float: none;
+		padding-right: 2.5%;           
+		width: 95%;                   
+	}
+	article img { max-width: 30%; }
+	#speakers {
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
+	}
+	#nav_menu {
+		display: none;
+	}
+	#mobile_menu {
+		display: block;
+	}
+	.slicknav_menu {
+		background-color: #800000 !important;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	body { font-size: 90%; }
+}
+
+
+@media only screen and (max-width: 767px) {
+	header img { float: none; }
+	header { text-align: center; }
+	section {
+		float: none;
+		width: 95%;                    
+	}
+	aside {
+		float: none;
+		padding-right: 2.5%;           
+		width: 95%;                    
+	}
+	article img { max-width: 30%; }
+	#speakers {
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
+	}
+	#nav_menu {
+		display: none;
+	}
+	#mobile_menu {
+		display: block;
+	}
+	.slicknav_menu {
+		background-color: #800000 !important;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	body { font-size: 90%; }
+}
+
